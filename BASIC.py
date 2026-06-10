@@ -258,13 +258,106 @@ c indexing is also  count space
 
 
 
-def factorial ():
-    n=int(input("enter the number for factorial "))
-    fact=1
-    for i in range (1,n+1):
-        fact*=i
-    return n
-print(factorial())
+# def factorial ():
+#     n=int(input("enter the number for factorial "))
+#     fact=1
+#     for i in range (1,n+1):
+#         fact*=i
+#     return n
+# print(factorial())   
+
+
+
+# abhi tak jo pad liya hai 
+# #  1. funnction 
+# # return statemnet 
+# positional parameter 
+# defualt parameter 
+# keyword parameter
+
+
+
+# # ----------> keyword argument <-------------
+# def info (name ,gender, age , address):
+#     print(name)
+#     print(gender)
+#     print(age)
+#     print(address)
+# info(gender="m",age="1000",address="pakistan",name="chutiya") 
+
+
+
+#  check if a number is palindrome  or not using keyword argument 
+# def palindrome (num):
+#     # num=int(input("enter yourr number "))
+#     copy=num
+#     reverse=0
+#     while num >0:
+#         last=num%10 
+#         reverse=reverse*10+last
+#         num=num//10
+#     if copy ==reverse :
+#         print(f"{copy} is a palindrome number ")
+#     else:
+#         print(f"{copy}is not a palindrome number ")
+# palindrome(num=1221)
+
+
+
+
+
+# -----------> recursion <----------- recursion like a stack like LIFO
+# def display (num): # num=1
+#     if num>10:
+#         return 
+#     print(num)
+#     display(num+1)
+# display(1)     
+
+
+# def display (num): # num=1
+#      if num<1:
+#          return 
+#      print(num)
+#      display(num-1)
+# display(10)     
+
+
+
+# Factorial. 
+# def factorial (num):
+#     if num<1 :
+#         return 1
+#     return num*factorial(num-1)
+
+# print(factorial(5))
+
+
+
+# sum of n natural number 
+# def natural_no (num):
+#     if num<=1:
+#         return 1
+#     return num+natural_no(num-1)
+# print(natural_no(5))
+
+
+
+
+
+# count down number 
+def count_down(num):
+    if num<1:
+        return 1
+    print(num)
+    count_down(num-1)
+(count_down(5))
+
+     
+
+
+
+
 
 
     

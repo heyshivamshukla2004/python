@@ -1,1 +1,2 @@
-num=int(input("enter your name "))
+
+print(count_down(5))
